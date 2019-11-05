@@ -118,7 +118,7 @@ function buildCharts(sample)
                             mode: "gauge+number",
 
                             gauge: {
-                                    axis : { range: [null, 7],  },
+                                    axis : { range: [null, 9],  },
                                     steps: [              
                                               { range: [0, 1], color: "rgba(232, 226, 202, .8)" },
                                               { range: [1, 2], color: "rgba(210, 206, 145, .7)" },
@@ -126,7 +126,9 @@ function buildCharts(sample)
                                               { range: [3, 4], color: "rgba(202, 209,  95, .9)" },
                                               { range: [4, 5], color: "rgba(170, 202,  42, .8)" },
                                               { range: [5, 6], color: "rgba(110, 154,  22, .8)" },
-                                              { range: [6, 7], color: "rgba( 14, 127,   0, .8)" }
+                                              { range: [6, 7], color: "rgba( 14, 127,   0, .8)" },
+                                              { range: [7, 8], color: "rgba( 0, 112,   192, .8)" },
+                                              { range: [8, 9], color: "rgba( 2, 16,   144, .8)" }
                                             ],
 
                                     threshold:{
